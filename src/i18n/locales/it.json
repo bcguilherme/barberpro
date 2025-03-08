@@ -38,6 +38,7 @@
     "privacy": "Privacy",
     "cookies": "Cookie",
     "language": "Lingua",
+    "selectLanguage": "Seleziona lingua",
     "theme": "Tema",
     "dark": "Scuro",
     "light": "Chiaro",
@@ -160,19 +161,7 @@
     "stayUpdated": "Resta aggiornato",
     "stayInTouch": "Rimani in contatto",
     "getInTouch": "Contattaci",
-    "getStarted": "Inizia",
-    "learnMore": "Scopri di più",
-    "findOutMore": "Scopri di più",
-    "discoverMore": "Scopri di più",
-    "exploreMore": "Esplora di più",
-    "browseMore": "Sfoglia di più",
-    "seeAll": "Vedi tutto",
-    "viewDetails": "Vedi dettagli",
-    "moreDetails": "Maggiori dettagli",
-    "moreInfo": "Maggiori informazioni",
-    "moreInformation": "Maggiori informazioni",
-    "additionalInfo": "Informazioni aggiuntive",
-    "additionalInformation": "Informazioni aggiuntive"
+    "getStarted": "Inizia ora"
   },
   "home": {
     "title": "Sistema di gestione per barbieri e saloni di bellezza",

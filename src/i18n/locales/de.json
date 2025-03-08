@@ -38,6 +38,7 @@
     "privacy": "Datenschutz",
     "cookies": "Cookies",
     "language": "Sprache",
+    "selectLanguage": "Sprache auswählen",
     "theme": "Thema",
     "dark": "Dunkel",
     "light": "Hell",
@@ -160,19 +161,7 @@
     "stayUpdated": "Bleiben Sie auf dem Laufenden",
     "stayInTouch": "Bleiben Sie in Kontakt",
     "getInTouch": "Kontaktieren Sie uns",
-    "getStarted": "Loslegen",
-    "learnMore": "Mehr erfahren",
-    "findOutMore": "Mehr erfahren",
-    "discoverMore": "Mehr entdecken",
-    "exploreMore": "Mehr erkunden",
-    "browseMore": "Mehr durchsuchen",
-    "seeAll": "Alle anzeigen",
-    "viewDetails": "Details anzeigen",
-    "moreDetails": "Weitere Details",
-    "moreInfo": "Weitere Informationen",
-    "moreInformation": "Weitere Informationen",
-    "additionalInfo": "Zusätzliche Informationen",
-    "additionalInformation": "Zusätzliche Informationen"
+    "getStarted": "Jetzt starten"
   },
   "home": {
     "title": "Verwaltungssystem für Barbershops und Schönheitssalons",

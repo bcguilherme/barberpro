@@ -1,18 +1,18 @@
 {
   "header": {
     "login": "Entrar",
-    "signup": "Cadastrar",
-    "features": "Recursos",
+    "signup": "Registar",
+    "features": "Funcionalidades",
     "pricing": "Preços",
-    "contact": "Contato",
+    "contact": "Contacto",
     "dashboard": "Painel",
     "logout": "Sair",
     "how_it_works": "Como Funciona"
   },
   "common": {
-    "features": "Recursos",
+    "features": "Funcionalidades",
     "pricing": "Preços",
-    "contact": "Contato",
+    "contact": "Contacto",
     "login": "Entrar",
     "dashboard": "Painel",
     "getStarted": "Começar agora",
@@ -20,7 +20,7 @@
   },
   "hero": {
     "title": "Sistema completo para gestão de barbearias",
-    "subtitle": "Aumente sua produtividade e faturamento com o BarberPro. Interface moderna e intuitiva para você gerenciar seu negócio com facilidade.",
+    "subtitle": "Aumente a sua produtividade e faturação com o BarberPro. Interface moderna e intuitiva para gerir o seu negócio com facilidade.",
     "cta": {
       "start": "Começar agora",
       "demo": "Ver demonstração"
@@ -33,13 +33,13 @@
       "title": "Plano Básico",
       "price": "€29,90",
       "period": "/mês",
-      "description": "Ideal para profissionais autônomos e barbearias pequenas.",
+      "description": "Ideal para profissionais autónomos e barbearias pequenas.",
       "annual_discount": "20% de desconto no plano anual",
       "annual_price": "€287,04",
       "annual_period": "/ano",
       "feature1": "Agendamento online",
-      "feature2": "Cadastro de até 100 clientes",
-      "feature3": "Controle financeiro básico",
+      "feature2": "Registo de até 100 clientes",
+      "feature3": "Controlo financeiro básico",
       "feature4": "Integração com Google Agenda",
       "cta": "Começar agora"
     },
@@ -54,16 +54,16 @@
       "annual_period": "/ano",
       "feature1": "Todas as funcionalidades do plano básico",
       "feature2": "Clientes ilimitados",
-      "feature3": "Controle de estoque avançado",
+      "feature3": "Controlo de stock avançado",
       "feature4": "Relatórios avançados",
-      "feature5": "Programa de fidelidade personalizado",
+      "feature5": "Programa de fidelização personalizado",
       "feature6": "Suporte prioritário",
       "cta": "Começar agora"
     }
   },
   "cta": {
-    "title": "Pronto para transformar sua barbearia?",
-    "subtitle": "Experimente o BarberPro gratuitamente por 14 dias e descubra como podemos ajudar seu negócio a crescer.",
+    "title": "Pronto para transformar a sua barbearia?",
+    "subtitle": "Experimente o BarberPro gratuitamente por 14 dias e descubra como podemos ajudar o seu negócio a crescer.",
     "button": "Começar teste gratuito"
   },
   "footer": {
@@ -71,82 +71,82 @@
     "copyright": "© 2024 BarberPro. Todos os direitos reservados.",
     "links": "Links",
     "legal": "Legal",
-    "terms": "Termos de Uso",
+    "terms": "Termos de Utilização",
     "privacy": "Política de Privacidade",
     "cookies": "Cookies",
-    "contact": "Contato"
+    "contact": "Contacto"
   },
   "reviews": {
-    "title": "O que nossos clientes dizem",
-    "subtitle": "Mais de 1000 barbearias já transformaram seus negócios com o BarberPro"
+    "title": "O que os nossos clientes dizem",
+    "subtitle": "Mais de 1000 barbearias já transformaram os seus negócios com o BarberPro"
   },
   "testimonials": {
     "title": "Depoimentos de clientes",
-    "subtitle": "Veja o que nossos clientes estão dizendo sobre o BarberPro",
+    "subtitle": "Veja o que os nossos clientes estão a dizer sobre o BarberPro",
     "testimonial1": {
-      "text": "O BarberPro transformou completamente a gestão da minha barbearia. Agora consigo controlar agendamentos, finanças e estoque em um só lugar. Recomendo a todos!",
+      "text": "O BarberPro transformou completamente a gestão da minha barbearia. Agora consigo controlar agendamentos, finanças e stock num só lugar. Recomendo a todos!",
       "name": "Carlos Silva",
       "role": "Proprietário da Barbearia Vintage",
       "initials": "CS"
     },
     "testimonial2": {
-      "text": "Desde que implementamos o BarberPro, nossos agendamentos aumentaram em 30% e a satisfação dos clientes melhorou significativamente. A interface é intuitiva e fácil de usar.",
+      "text": "Desde que implementámos o BarberPro, os nossos agendamentos aumentaram em 30% e a satisfação dos clientes melhorou significativamente. A interface é intuitiva e fácil de usar.",
       "name": "Mariana Santos",
       "role": "Gerente do Salão Elite",
       "initials": "MS"
     },
     "testimonial3": {
-      "text": "O suporte ao cliente é excepcional! Sempre que tive dúvidas, a equipe do BarberPro me ajudou prontamente. O sistema é completo e atende todas as necessidades da minha barbearia.",
+      "text": "O suporte ao cliente é excepcional! Sempre que tive dúvidas, a equipa do BarberPro ajudou-me prontamente. O sistema é completo e atende todas as necessidades da minha barbearia.",
       "name": "Rafael Oliveira",
       "role": "Barbeiro e Empreendedor",
       "initials": "RO"
     }
   },
   "features": {
-    "title": "Recursos do BarberPro",
-    "subtitle": "Todas as ferramentas que você precisa para gerenciar sua barbearia em um só lugar",
+    "title": "Funcionalidades do BarberPro",
+    "subtitle": "Todas as ferramentas que precisa para gerir a sua barbearia num só lugar",
     "scheduling": {
       "title": "Agendamento inteligente",
-      "description": "Sistema de agendamento intuitivo integrado com Google Agenda para seus clientes marcarem horários facilmente."
+      "description": "Sistema de agendamento intuitivo integrado com Google Agenda para os seus clientes marcarem horários facilmente."
     },
     "financial": {
       "title": "Gestão financeira",
-      "description": "Controle completo de receitas, despesas e comissões com relatórios detalhados e visuais."
+      "description": "Controlo completo de receitas, despesas e comissões com relatórios detalhados e visuais."
     },
     "loyalty": {
       "title": "Fidelização de clientes",
-      "description": "Ferramentas de marketing e programas de fidelidade para manter seus clientes sempre voltando."
+      "description": "Ferramentas de marketing e programas de fidelidade para manter os seus clientes sempre a voltar."
     }
   },
   "business_model": {
     "title": "Como o BarberPro funciona",
     "subtitle": "Uma solução completa para transformar a gestão da sua barbearia",
     "scheduling_title": "Agendamento Inteligente",
-    "scheduling_description": "Otimize sua agenda e elimine conflitos de horários",
+    "scheduling_description": "Otimize a sua agenda e elimine conflitos de horários",
     "online_scheduling": "Agendamento Online",
-    "online_scheduling_desc": "Permita que seus clientes marquem horários 24/7 pelo site ou aplicativo",
+    "online_scheduling_desc": "Permita que os seus clientes marquem horários 24/7 pelo site ou aplicação",
     "automated_calendar": "Calendário Automatizado",
     "automated_calendar_desc": "Sincronização com Google Agenda e notificações automáticas",
     "auto_reminders": "Lembretes Automáticos",
     "auto_reminders_desc": "Reduza faltas com lembretes por SMS e e-mail",
     
     "financial_title": "Gestão Financeira",
-    "financial_description": "Controle completo das finanças do seu negócio",
-    "revenue_tracking": "Controle de Receitas",
+    "financial_description": "Controlo completo das finanças do seu negócio",
+    "revenue_tracking": "Controlo de Receitas",
     "revenue_tracking_desc": "Acompanhe vendas, serviços e comissões em tempo real",
     "expense_management": "Gestão de Despesas",
-    "expense_management_desc": "Categorize e monitore todos os gastos do seu negócio",
+    "expense_management_desc": "Categorize e monitorize todos os gastos do seu negócio",
     "commission_system": "Sistema de Comissões",
-    "commission_system_desc": "Cálculo automático de comissões para seus profissionais",
+    "commission_system_desc": "Cálculo automático de comissões para os seus profissionais",
     
     "customer_title": "Gestão de Clientes",
-    "customer_description": "Construa relacionamentos duradouros com seus clientes",
+    "customer_description": "Construa relacionamentos duradouros com os seus clientes",
     "client_profiles": "Perfis de Clientes",
-    "client_profiles_desc": "Histórico completo de serviços, preferências e dados de contato",
+    "client_profiles_desc": "Histórico completo de serviços, preferências e dados de contacto",
     "service_history": "Histórico de Serviços",
-    "service_history_desc": "Registro detalhado de todos os atendimentos realizados",
+    "service_history_desc": "Registo detalhado de todos os atendimentos realizados",
     "preference_tracking": "Preferências Personalizadas",
-    "preference_tracking_desc": "Registre preferências de corte, produtos e profissionais",
+    "preference_tracking_desc": "Registe preferências de corte, produtos e profissionais",
     
     "marketing_title": "Marketing e Fidelização",
     "marketing_description": "Ferramentas para atrair e reter mais clientes",
@@ -155,7 +155,7 @@
     "automated_campaigns": "Campanhas Automáticas",
     "automated_campaigns_desc": "E-mails e SMS para aniversários, promoções e reativação",
     "review_management": "Gestão de Avaliações",
-    "review_management_desc": "Colete e gerencie avaliações dos clientes para melhorar sua reputação"
+    "review_management_desc": "Recolha e faça a gestão de avaliações dos clientes para melhorar a sua reputação"
   },
   "stats": {
     "barbershops": "Barbearias",
@@ -165,23 +165,23 @@
   },
   "login": {
     "title": "Entre na sua conta",
-    "subtitle": "Acesse o sistema e gerencie sua barbearia",
+    "subtitle": "Aceda ao sistema e faça a gestão da sua barbearia",
     "email": "E-mail",
-    "password": "Senha",
+    "password": "Palavra-passe",
     "remember": "Lembrar-me",
-    "forgot": "Esqueceu a senha?",
+    "forgot": "Esqueceu a palavra-passe?",
     "button": "Entrar",
     "google": "Continuar com Google",
     "no_account": "Não tem uma conta?",
-    "signup_link": "Cadastre-se"
+    "signup_link": "Registe-se"
   },
   "signup": {
-    "title": "Crie sua conta",
-    "subtitle": "Comece a gerenciar sua barbearia de forma eficiente",
+    "title": "Crie a sua conta",
+    "subtitle": "Comece a gerir a sua barbearia de forma eficiente",
     "fullname": "Nome completo",
     "email": "E-mail",
-    "password": "Senha",
-    "confirm_password": "Confirmar senha",
+    "password": "Palavra-passe",
+    "confirm_password": "Confirmar palavra-passe",
     "password_hint": "Mínimo de 8 caracteres, incluindo letras e números",
     "button": "Criar conta",
     "google": "Continuar com Google",

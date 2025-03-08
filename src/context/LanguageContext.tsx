@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import '../i18n' // Importar a configuração do i18next
 
 // Tipos de idiomas suportados
-export type Language = 'pt' | 'en' | 'es' | 'fr' | 'it' | 'de'
+export type Language = 'pt' | 'pt-PT' | 'en' | 'es' | 'fr' | 'it' | 'de'
 
 // Interface para o contexto de idioma
 interface LanguageContextType {
@@ -33,15 +33,21 @@ export const useLanguage = () => useContext(LanguageContext)
 
 // Função para validar se o idioma é suportado
 const isValidLanguage = (lang: string): lang is Language => {
-  return lang === 'pt' || lang === 'en' || lang === 'es' || lang === 'fr' || lang === 'it' || lang === 'de'
+  return lang === 'pt' || lang === 'pt-PT' || lang === 'en' || lang === 'es' || lang === 'fr' || lang === 'it' || lang === 'de'
 }
 
 // Função para obter o idioma do navegador
 const getBrowserLanguage = (): Language => {
   if (typeof window === 'undefined') return 'pt'
   
-  const browserLang = navigator.language.split('-')[0]
-  return isValidLanguage(browserLang) ? browserLang : 'pt'
+  const browserLang = navigator.language
+  
+  // Verificar se é português de Portugal especificamente
+  if (browserLang === 'pt-PT') return 'pt-PT'
+  
+  // Para outros casos, usar apenas o código de idioma principal
+  const mainLang = browserLang.split('-')[0]
+  return isValidLanguage(mainLang) ? mainLang as Language : 'pt'
 }
 
 // Função para obter o idioma salvo
@@ -49,7 +55,7 @@ const getSavedLanguage = (): Language => {
   if (typeof window === 'undefined') return 'pt'
   
   const savedLang = localStorage.getItem('language')
-  return savedLang && isValidLanguage(savedLang) ? savedLang : 'pt'
+  return savedLang && isValidLanguage(savedLang) ? savedLang as Language : 'pt'
 }
 
 // Provedor do contexto

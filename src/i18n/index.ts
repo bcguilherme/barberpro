@@ -3,6 +3,7 @@ import { initReactI18next } from 'react-i18next';
 
 // Importar recursos de tradução
 import pt from './locales/pt.json';
+import ptPT from './locales/pt-PT.json';
 import en from './locales/en.json';
 import es from './locales/es.json';
 import fr from './locales/fr.json';
@@ -16,6 +17,9 @@ i18n
     resources: {
       pt: {
         translation: pt
+      },
+      'pt-PT': {
+        translation: ptPT
       },
       en: {
         translation: en

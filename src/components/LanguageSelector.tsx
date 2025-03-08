@@ -7,7 +7,8 @@ import { useMediaQuery } from '@/hooks/useMediaQuery'
 
 // Mapeamento de códigos de idioma para nomes e bandeiras
 const languageMap = {
-  pt: { name: 'Português', flag: '🇧🇷' },
+  pt: { name: 'Português (BR)', flag: '🇧🇷' },
+  'pt-PT': { name: 'Português (PT)', flag: '🇵🇹' },
   en: { name: 'English', flag: '🇺🇸' },
   es: { name: 'Español', flag: '🇪🇸' },
   fr: { name: 'Français', flag: '🇫🇷' },
@@ -16,7 +17,7 @@ const languageMap = {
 }
 
 export function LanguageSelector() {
-  const { language, changeLanguage } = useI18n()
+  const { language, changeLanguage, t } = useI18n()
   const [isOpen, setIsOpen] = useState(false)
   const isMobile = useMediaQuery('(max-width: 768px)')
   
@@ -38,6 +39,10 @@ export function LanguageSelector() {
   const handleLanguageChange = (lang: Language) => {
     changeLanguage(lang)
     setIsOpen(false)
+    
+    // Forçar a atualização da página para aplicar todas as traduções
+    // Isso garante que todo o site seja traduzido corretamente
+    window.location.reload()
   }
   
   return (
@@ -45,13 +50,13 @@ export function LanguageSelector() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center space-x-2 text-sm font-medium text-gray-700 hover:text-purple-700 transition-colors rounded-md px-3 py-2 hover:bg-gray-100"
-        aria-label="Selecionar idioma"
+        aria-label={t('common.selectLanguage') || 'Selecionar idioma'}
         aria-expanded={isOpen}
       >
         <Globe className="h-4 w-4" />
         <span className="flex items-center">
-          <span className="mr-2">{languageMap[language]?.flag}</span>
-          {!isMobile && <span>{languageMap[language]?.name || 'Português'}</span>}
+          <span className="mr-2">{languageMap[language as keyof typeof languageMap]?.flag || languageMap.pt.flag}</span>
+          {!isMobile && <span>{languageMap[language as keyof typeof languageMap]?.name || languageMap.pt.name}</span>}
         </span>
       </button>
       

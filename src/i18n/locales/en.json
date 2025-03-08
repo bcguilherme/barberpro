@@ -9,6 +9,15 @@
     "logout": "Logout",
     "how_it_works": "How It Works"
   },
+  "common": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "getStarted": "Get Started",
+    "selectLanguage": "Select language"
+  },
   "hero": {
     "title": "Complete barbershop management system",
     "subtitle": "Increase your productivity and revenue with BarberPro. Modern and intuitive interface to manage your business with ease.",
