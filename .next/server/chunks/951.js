@@ -1,0 +1,1 @@
+"use strict";exports.id=951,exports.ids=[951],exports.modules={90032:(e,r,s)=>{s.r(r),s.d(r,{$$typeof:()=>a,__esModule:()=>o,default:()=>d});let t=(0,s(86843).createProxy)(String.raw`/Users/guilhermecorreia/barberpro-backup-20250308/src/components/TabsHome.tsx`),{__esModule:o,$$typeof:a}=t,d=t.default}};

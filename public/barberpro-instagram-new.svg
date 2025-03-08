@@ -1,0 +1,34 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo escuro -->
+  <rect width="1080" height="1080" fill="#121212" />
+  
+  <!-- Círculo central com gradiente -->
+  <circle cx="540" cy="540" r="400" fill="#1A1A1A" />
+  
+  <!-- Logo BarberPro -->
+  <text x="540" y="540" font-family="Montserrat, sans-serif" font-size="120" font-weight="700" text-anchor="middle" fill="#9C5FD9">
+    BarberPro
+  </text>
+  
+  <!-- Elementos decorativos -->
+  <circle cx="540" cy="540" r="420" stroke="#9C5FD9" stroke-width="2" fill="none" opacity="0.3" />
+  <circle cx="540" cy="540" r="440" stroke="#9C5FD9" stroke-width="1" fill="none" opacity="0.2" />
+  
+  <!-- Navalha estilizada -->
+  <g transform="translate(540, 700) rotate(-30) scale(0.8)">
+    <!-- Cabo da navalha -->
+    <rect x="-120" y="-20" width="80" height="40" rx="5" fill="#7B1FA2" stroke="#9C5FD9" stroke-width="2" />
+    
+    <!-- Lâmina da navalha -->
+    <path d="M-40 0 L80 0 L100 -15 L100 15 L80 0 Z" fill="#E0E0E0" stroke="#9E9E9E" stroke-width="1" />
+    <line x1="-40" y1="0" x2="80" y2="0" stroke="#BDBDBD" stroke-width="1" />
+  </g>
+  
+  <!-- Texto "EST. 2023" -->
+  <text x="540" y="800" font-family="Montserrat, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#9C5FD9" letter-spacing="5">EST. 2023</text>
+  
+  <!-- Slogan -->
+  <text x="540" y="350" font-family="Montserrat, sans-serif" font-size="24" font-weight="300" text-anchor="middle" fill="#9C5FD9">
+    SISTEMA DE GESTÃO PARA BARBEARIAS
+  </text>
+</svg> 

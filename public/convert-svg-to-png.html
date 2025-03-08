@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Converter SVG para PNG</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #9C5FD9;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 10px 0;
+    }
+    .svg-container {
+      margin: 20px 0;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Converter SVG para PNG</h1>
+  
+  <div class="svg-container">
+    <h2>Logo Principal</h2>
+    <img src="/logo-new.svg" alt="Logo Principal" id="logo-new">
+    <button class="button" onclick="convertToPng('logo-new', 300, 80)">Converter para PNG</button>
+  </div>
+  
+  <div class="svg-container">
+    <h2>Logo Pequeno</h2>
+    <img src="/logo-new-small.svg" alt="Logo Pequeno" id="logo-new-small">
+    <button class="button" onclick="convertToPng('logo-new-small', 50, 50)">Converter para PNG</button>
+  </div>
+  
+  <div class="svg-container">
+    <h2>Logo Texto</h2>
+    <img src="/logo-text-new.svg" alt="Logo Texto" id="logo-text-new">
+    <button class="button" onclick="convertToPng('logo-text-new', 300, 80)">Converter para PNG</button>
+  </div>
+  
+  <script>
+    function convertToPng(id, width, height) {
+      const img = document.getElementById(id);
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      
+      // Preenche o fundo com transparente
+      ctx.clearRect(0, 0, width, height);
+      
+      // Desenha a imagem no canvas
+      ctx.drawImage(img, 0, 0, width, height);
+      
+      // Converte o canvas para PNG
+      const pngUrl = canvas.toDataURL('image/png');
+      
+      // Cria um link para download
+      const link = document.createElement('a');
+      link.download = id + '.png';
+      link.href = pngUrl;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+</body>
+</html> 

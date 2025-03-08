@@ -1,0 +1,50 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo circular -->
+  <circle cx="100" cy="100" r="95" fill="#1E293B" />
+  <circle cx="100" cy="100" r="85" fill="#0F172A" />
+  
+  <!-- Elementos de barbearia estilizados -->
+  <path d="M60 70 L60 130 L70 140 L70 60 L60 70" fill="#E11D48" />
+  <path d="M80 60 L80 140 L90 130 L90 70 L80 60" fill="#FFFFFF" />
+  <path d="M100 70 L100 130 L110 140 L110 60 L100 70" fill="#E11D48" />
+  
+  <!-- Elemento tecnológico (circuito) -->
+  <path d="M120 80 L140 80 L140 90 L150 90 L150 110 L140 110 L140 120 L120 120" stroke="#FFFFFF" stroke-width="3" fill="none" />
+  <circle cx="120" cy="80" r="3" fill="#FFFFFF" />
+  <circle cx="120" cy="120" r="3" fill="#FFFFFF" />
+  <circle cx="150" cy="100" r="3" fill="#FFFFFF" />
+  
+  <!-- Texto "BARBER" -->
+  <path d="M50 155 L55 155 Q60 155 60 160 L60 165 Q60 170 55 170 L50 170 L50 155 Z" fill="#FFFFFF" />
+  <path d="M50 162 L55 162 Q57 162 57 164 L57 165 Q57 167 55 167 L50 167 L50 162 Z" fill="#0F172A" />
+  
+  <path d="M65 155 L70 155 Q75 155 75 160 L75 165 Q75 170 70 170 L65 170 L65 155 Z" fill="#FFFFFF" />
+  <path d="M65 162 L70 162 Q72 162 72 164 L72 165 Q72 167 70 167 L65 167 L65 162 Z" fill="#0F172A" />
+  
+  <path d="M80 155 L85 155 Q90 155 90 160 L90 165 Q90 170 85 170 L80 170 L80 155 Z" fill="#FFFFFF" />
+  <path d="M80 162 L85 162 Q87 162 87 164 L87 165 Q87 167 85 167 L80 167 L80 162 Z" fill="#0F172A" />
+  
+  <path d="M95 155 L100 155 Q105 155 105 160 L105 165 Q105 170 100 170 L95 170 L95 155 Z" fill="#FFFFFF" />
+  <path d="M95 162 L100 162 Q102 162 102 164 L102 165 Q102 167 100 167 L95 167 L95 162 Z" fill="#0F172A" />
+  
+  <path d="M110 155 L115 155 Q120 155 120 160 L120 165 Q120 170 115 170 L110 170 L110 155 Z" fill="#FFFFFF" />
+  <path d="M110 162 L115 162 Q117 162 117 164 L117 165 Q117 167 115 167 L110 167 L110 162 Z" fill="#0F172A" />
+  
+  <path d="M125 155 L130 155 Q135 155 135 160 L135 165 Q135 170 130 170 L125 170 L125 155 Z" fill="#FFFFFF" />
+  <path d="M125 162 L130 162 Q132 162 132 164 L132 165 Q132 167 130 167 L125 167 L125 162 Z" fill="#0F172A" />
+  
+  <!-- Texto "PRO" -->
+  <path d="M145 155 L150 155 Q155 155 155 160 L155 165 Q155 170 150 170 L145 170 L145 155 Z" fill="#E11D48" />
+  <path d="M145 162 L150 162 Q152 162 152 164 L152 165 Q152 167 150 167 L145 167 L145 162 Z" fill="#0F172A" />
+  
+  <path d="M160 155 L165 155 Q170 155 170 160 L170 165 Q170 170 165 170 L160 170 L160 155 Z" fill="#E11D48" />
+  <path d="M160 162 L165 162 Q167 162 167 164 L167 165 Q167 167 165 167 L160 167 L160 162 Z" fill="#0F172A" />
+  
+  <path d="M175 155 L180 155 Q185 155 185 160 L185 165 Q185 170 180 170 L175 170 L175 155 Z" fill="#E11D48" />
+  <path d="M175 162 L180 162 Q182 162 182 164 L182 165 Q182 167 180 167 L175 167 L175 162 Z" fill="#0F172A" />
+  
+  <!-- Brilho -->
+  <circle cx="65" cy="85" r="2" fill="#FFFFFF" opacity="0.7" />
+  <circle cx="75" cy="75" r="1.5" fill="#FFFFFF" opacity="0.5" />
+  <circle cx="85" cy="90" r="1" fill="#FFFFFF" opacity="0.3" />
+</svg> 

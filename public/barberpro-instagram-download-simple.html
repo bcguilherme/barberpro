@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download do Logo BarberPro para Instagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: white;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #9C5FD9;
+      text-align: center;
+    }
+    .logo-container {
+      background-color: #121212;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      background-color: #9C5FD9;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Download do Logo BarberPro para Instagram</h1>
+  
+  <div class="logo-container">
+    <svg width="300" height="300" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+      <!-- Fundo escuro -->
+      <rect width="1080" height="1080" fill="#121212" />
+      
+      <!-- Logo BarberPro -->
+      <text x="540" y="540" font-family="Montserrat, sans-serif" font-size="120" font-weight="700" text-anchor="middle" fill="#9C5FD9">
+        BarberPro
+      </text>
+    </svg>
+    
+    <div>
+      <a href="/barberpro-instagram-exact.svg" download="barberpro-instagram.svg" class="button">Download SVG</a>
+      <a href="#" id="download-png" class="button">Download PNG</a>
+    </div>
+  </div>
+  
+  <script>
+    document.getElementById('download-png').addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Criar um canvas
+      const canvas = document.createElement('canvas');
+      canvas.width = 1080;
+      canvas.height = 1080;
+      const ctx = canvas.getContext('2d');
+      
+      // Preencher o fundo
+      ctx.fillStyle = '#121212';
+      ctx.fillRect(0, 0, 1080, 1080);
+      
+      // Desenhar o texto
+      ctx.font = 'bold 120px Montserrat, sans-serif';
+      ctx.fillStyle = '#9C5FD9';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('BarberPro', 540, 540);
+      
+      // Converter para PNG e fazer download
+      const link = document.createElement('a');
+      link.download = 'barberpro-instagram.png';
+      link.href = canvas.toDataURL('image/png');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+  </script>
+</body>
+</html> 

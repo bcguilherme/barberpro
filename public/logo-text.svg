@@ -1,0 +1,42 @@
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Texto "BARBER" -->
+  <path d="M10 10 H20 Q25 10 25 15 V20 Q25 25 20 25 H10 V10 Z" fill="#1E293B" />
+  <path d="M12 12 H19 Q22 12 22 15 V20 Q22 23 19 23 H12 V12 Z" fill="#FFFFFF" />
+  <path d="M14 14 H18 Q19 14 19 15 V20 Q19 21 18 21 H14 V14 Z" fill="#1E293B" />
+  
+  <path d="M30 10 H35 Q40 10 40 15 V20 Q40 25 35 25 H30 V10 Z" fill="#1E293B" />
+  <path d="M32 12 H34 Q37 12 37 15 V20 Q37 23 34 23 H32 V12 Z" fill="#FFFFFF" />
+  <path d="M34 14 H33 Q34 14 34 15 V20 Q34 21 33 21 H34 V14 Z" fill="#1E293B" />
+  
+  <path d="M45 10 H50 Q55 10 55 15 V20 Q55 25 50 25 H45 V10 Z" fill="#1E293B" />
+  <path d="M47 12 H49 Q52 12 52 15 V20 Q52 23 49 23 H47 V12 Z" fill="#FFFFFF" />
+  <path d="M49 14 H48 Q49 14 49 15 V20 Q49 21 48 21 H49 V14 Z" fill="#1E293B" />
+  
+  <path d="M60 10 H65 Q70 10 70 15 V20 Q70 25 65 25 H60 V10 Z" fill="#1E293B" />
+  <path d="M62 12 H64 Q67 12 67 15 V20 Q67 23 64 23 H62 V12 Z" fill="#FFFFFF" />
+  <path d="M64 14 H63 Q64 14 64 15 V20 Q64 21 63 21 H64 V14 Z" fill="#1E293B" />
+  
+  <path d="M75 10 H80 Q85 10 85 15 V20 Q85 25 80 25 H75 V10 Z" fill="#1E293B" />
+  <path d="M77 12 H79 Q82 12 82 15 V20 Q82 23 79 23 H77 V12 Z" fill="#FFFFFF" />
+  <path d="M79 14 H78 Q79 14 79 15 V20 Q79 21 78 21 H79 V14 Z" fill="#1E293B" />
+  
+  <path d="M90 10 H95 Q100 10 100 15 V20 Q100 25 95 25 H90 V10 Z" fill="#1E293B" />
+  <path d="M92 12 H94 Q97 12 97 15 V20 Q97 23 94 23 H92 V12 Z" fill="#FFFFFF" />
+  <path d="M94 14 H93 Q94 14 94 15 V20 Q94 21 93 21 H94 V14 Z" fill="#1E293B" />
+  
+  <!-- Texto "PRO" -->
+  <path d="M110 10 H120 Q125 10 125 15 V20 Q125 25 120 25 H110 V10 Z" fill="#1E293B" />
+  <path d="M112 12 H119 Q122 12 122 15 V20 Q122 23 119 23 H112 V12 Z" fill="#E11D48" />
+  <path d="M114 14 H118 Q119 14 119 15 V20 Q119 21 118 21 H114 V14 Z" fill="#1E293B" />
+  
+  <path d="M130 10 H135 Q140 10 140 15 V20 Q140 25 135 25 H130 V10 Z" fill="#1E293B" />
+  <path d="M132 12 H134 Q137 12 137 15 V20 Q137 23 134 23 H132 V12 Z" fill="#E11D48" />
+  <path d="M134 14 H133 Q134 14 134 15 V20 Q134 21 133 21 H134 V14 Z" fill="#1E293B" />
+  
+  <path d="M145 10 H150 Q155 10 155 15 V20 Q155 25 150 25 H145 V10 Z" fill="#1E293B" />
+  <path d="M147 12 H149 Q152 12 152 15 V20 Q152 23 149 23 H147 V12 Z" fill="#E11D48" />
+  <path d="M149 14 H148 Q149 14 149 15 V20 Q149 21 148 21 H149 V14 Z" fill="#1E293B" />
+  
+  <!-- Tagline -->
+  <text x="75" y="35" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#1E293B">SISTEMA DE GESTÃO PARA BARBEARIAS</text>
+</svg> 

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download do Logo BarberPro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-purple-dark: #2A0845;
+      --color-purple-medium: #4A148C;
+      --color-purple-light: #7B1FA2;
+      --color-accent: #CE93D8;
+      --color-accent-light: #E1BEE7;
+      --color-white: #FFFFFF;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #121212;
+      color: var(--color-white);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    header {
+      background: linear-gradient(135deg, var(--color-purple-dark), var(--color-purple-medium));
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(to right, var(--color-accent), var(--color-white));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .subtitle {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: var(--color-accent-light);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    main {
+      flex: 1;
+      padding: 3rem 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    
+    .logo-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    @media (min-width: 768px) {
+      .logo-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    
+    .logo-card {
+      background: linear-gradient(135deg, rgba(42, 8, 69, 0.8), rgba(74, 20, 140, 0.8));
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .logo-container {
+      background-color: var(--color-purple-dark);
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .logo-container img, .logo-container svg {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .logo-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--color-accent-light);
+    }
+    
+    .logo-description {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .button-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .button-primary {
+      background: linear-gradient(to right, var(--color-purple-medium), var(--color-purple-light));
+      color: var(--color-white);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .button-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    }
+    
+    .button-outline {
+      border: 2px solid var(--color-accent);
+      color: var(--color-accent);
+      background: transparent;
+    }
+    
+    .button-outline:hover {
+      background-color: rgba(123, 31, 162, 0.1);
+    }
+    
+    .instructions {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .instructions h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: var(--color-accent);
+    }
+    
+    .instructions p {
+      margin-bottom: 1rem;
+    }
+    
+    .instructions strong {
+      color: var(--color-white);
+    }
+    
+    footer {
+      background: var(--color-purple-dark);
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.6);
+    }
+    
+    /* Animação de brilho para o título */
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+    
+    .shine-text {
+      background-size: 200% auto;
+      animation: shine 3s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="shine-text">Download do Logo BarberPro</h1>
+    <p class="subtitle">Escolha o formato ideal para suas necessidades</p>
+  </header>
+  
+  <main>
+    <div class="logo-grid">
+      <div class="logo-card">
+        <div class="logo-container">
+          <svg width="300" height="300" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+            <!-- Definições de gradientes e filtros -->
+            <defs>
+              <!-- Gradiente principal roxo -->
+              <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#4A148C" />
+                <stop offset="50%" stop-color="#7B1FA2" />
+                <stop offset="100%" stop-color="#6A1B9A" />
+              </linearGradient>
+              
+              <!-- Gradiente metálico para detalhes -->
+              <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#E0E0E0" />
+                <stop offset="40%" stop-color="#FFFFFF" />
+                <stop offset="60%" stop-color="#BDBDBD" />
+                <stop offset="100%" stop-color="#9E9E9E" />
+              </linearGradient>
+              
+              <!-- Gradiente de destaque para o "PRO" -->
+              <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#CE93D8" />
+                <stop offset="50%" stop-color="#E1BEE7" />
+                <stop offset="100%" stop-color="#CE93D8" />
+              </linearGradient>
+              
+              <!-- Filtro de sombra suave -->
+              <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
+                <feOffset dx="0" dy="4" result="offsetblur" />
+                <feComponentTransfer>
+                  <feFuncA type="linear" slope="0.3" />
+                </feComponentTransfer>
+                <feMerge>
+                  <feMergeNode />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+              
+              <!-- Filtro de brilho metálico -->
+              <filter id="metalShine" x="-10%" y="-10%" width="120%" height="120%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+                <feSpecularLighting result="specOut" in="blur" specularExponent="20" lighting-color="#FFFFFF">
+                  <fePointLight x="540" y="300" z="200" />
+                </feSpecularLighting>
+                <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" />
+              </filter>
+              
+              <!-- Padrão de linhas para textura -->
+              <pattern id="diagonalLines" width="10" height="10" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+                <line x1="0" y1="0" x2="0" y2="10" stroke="#7B1FA2" stroke-width="1" opacity="0.2" />
+              </pattern>
+            </defs>
+            
+            <!-- Fundo com textura -->
+            <rect width="1080" height="1080" fill="#2A0845" />
+            <rect width="1080" height="1080" fill="url(#diagonalLines)" />
+            
+            <!-- Círculo de fundo -->
+            <circle cx="540" cy="540" r="400" fill="url(#purpleGradient)" filter="url(#softShadow)" />
+            
+            <!-- Elementos decorativos -->
+            <path d="M340 400 C400 350, 680 350, 740 400" stroke="#9C27B0" stroke-width="2" fill="none" opacity="0.3" />
+            <path d="M340 680 C400 730, 680 730, 740 680" stroke="#9C27B0" stroke-width="2" fill="none" opacity="0.3" />
+            
+            <!-- Navalha estilizada -->
+            <g transform="translate(540, 450) rotate(-30) scale(1.2)" filter="url(#metalShine)">
+              <!-- Cabo da navalha -->
+              <rect x="-120" y="-20" width="80" height="40" rx="5" fill="url(#purpleGradient)" stroke="#E1BEE7" stroke-width="2" />
+              <rect x="-115" y="-15" width="70" height="30" rx="3" fill="#4A148C" stroke="#E1BEE7" stroke-width="1" opacity="0.7" />
+              
+              <!-- Lâmina da navalha -->
+              <path d="M-40 0 L80 0 L100 -15 L100 15 L80 0 Z" fill="url(#metalGradient)" stroke="#9E9E9E" stroke-width="1" />
+              <line x1="-40" y1="0" x2="80" y2="0" stroke="#BDBDBD" stroke-width="1" />
+              
+              <!-- Detalhes do cabo -->
+              <circle cx="-90" cy="0" r="8" fill="#E1BEE7" opacity="0.8" />
+              <circle cx="-70" cy="0" r="8" fill="#E1BEE7" opacity="0.6" />
+              <circle cx="-50" cy="0" r="8" fill="#E1BEE7" opacity="0.4" />
+            </g>
+            
+            <!-- Texto "BARBER" -->
+            <text x="540" y="580" font-family="'Montserrat', sans-serif" font-size="80" font-weight="700" text-anchor="middle" fill="#FFFFFF" filter="url(#softShadow)">BARBER</text>
+            
+            <!-- Texto "PRO" com estilo diferenciado -->
+            <text x="540" y="650" font-family="'Montserrat', sans-serif" font-size="60" font-weight="900" text-anchor="middle" fill="url(#accentGradient)" filter="url(#softShadow)">PRO</text>
+            
+            <!-- Ano de estabelecimento -->
+            <text x="540" y="700" font-family="'Montserrat', sans-serif" font-size="18" font-weight="300" text-anchor="middle" fill="#E1BEE7" letter-spacing="5">EST. 2023</text>
+            
+            <!-- Elementos decorativos adicionais -->
+            <line x1="450" y1="700" x2="500" y2="700" stroke="#E1BEE7" stroke-width="1" />
+            <line x1="580" y1="700" x2="630" y2="700" stroke="#E1BEE7" stroke-width="1" />
+            
+            <!-- Brilhos e detalhes -->
+            <circle cx="440" cy="400" r="2" fill="#FFFFFF" opacity="0.8" />
+            <circle cx="640" cy="400" r="2" fill="#FFFFFF" opacity="0.8" />
+            <circle cx="490" cy="370" r="1.5" fill="#FFFFFF" opacity="0.6" />
+            <circle cx="590" cy="370" r="1.5" fill="#FFFFFF" opacity="0.6" />
+          </svg>
+        </div>
+        <h3 class="logo-title">Logo para Instagram</h3>
+        <p class="logo-description">
+          Versão quadrada otimizada para perfil do Instagram e outras redes sociais.
+        </p>
+        <div class="button-group">
+          <a href="/barberpro-instagram.svg" download="barberpro-instagram.svg" class="button button-primary">
+            Download SVG
+          </a>
+          <a href="/barberpro-instagram.svg" download="barberpro-instagram.svg" class="button button-outline" id="download-instagram-png">
+            Download PNG
+          </a>
+        </div>
+      </div>
+      
+      <div class="logo-card">
+        <div class="logo-container">
+          <svg width="300" height="150" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+            <!-- Definições de gradientes e filtros -->
+            <defs>
+              <!-- Gradiente principal roxo -->
+              <linearGradient id="purpleGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#4A148C" />
+                <stop offset="50%" stop-color="#7B1FA2" />
+                <stop offset="100%" stop-color="#6A1B9A" />
+              </linearGradient>
+              
+              <!-- Gradiente metálico para detalhes -->
+              <linearGradient id="metalGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#E0E0E0" />
+                <stop offset="40%" stop-color="#FFFFFF" />
+                <stop offset="60%" stop-color="#BDBDBD" />
+                <stop offset="100%" stop-color="#9E9E9E" />
+              </linearGradient>
+              
+              <!-- Gradiente de destaque para o "PRO" -->
+              <linearGradient id="accentGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#CE93D8" />
+                <stop offset="50%" stop-color="#E1BEE7" />
+                <stop offset="100%" stop-color="#CE93D8" />
+              </linearGradient>
+              
+              <!-- Filtro de sombra suave -->
+              <filter id="softShadow2" x="-10%" y="-10%" width="120%" height="120%">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
+                <feOffset dx="0" dy="4" result="offsetblur" />
+                <feComponentTransfer>
+                  <feFuncA type="linear" slope="0.3" />
+                </feComponentTransfer>
+                <feMerge>
+                  <feMergeNode />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+              
+              <!-- Filtro de brilho metálico -->
+              <filter id="metalShine2" x="-10%" y="-10%" width="120%" height="120%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+                <feSpecularLighting result="specOut" in="blur" specularExponent="20" lighting-color="#FFFFFF">
+                  <fePointLight x="400" y="100" z="200" />
+                </feSpecularLighting>
+                <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" />
+              </filter>
+              
+              <!-- Padrão de linhas para textura -->
+              <pattern id="diagonalLines2" width="10" height="10" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+                <line x1="0" y1="0" x2="0" y2="10" stroke="#7B1FA2" stroke-width="1" opacity="0.2" />
+              </pattern>
+            </defs>
+            
+            <!-- Fundo com textura -->
+            <rect width="800" height="400" fill="#2A0845" />
+            <rect width="800" height="400" fill="url(#diagonalLines2)" />
+            
+            <!-- Círculo de fundo -->
+            <circle cx="400" cy="200" r="180" fill="url(#purpleGradient2)" filter="url(#softShadow2)" />
+            
+            <!-- Elementos decorativos -->
+            <path d="M250 120 C300 80, 500 80, 550 120" stroke="#9C27B0" stroke-width="2" fill="none" opacity="0.3" />
+            <path d="M250 280 C300 320, 500 320, 550 280" stroke="#9C27B0" stroke-width="2" fill="none" opacity="0.3" />
+            
+            <!-- Navalha estilizada -->
+            <g transform="translate(400, 200) rotate(-30) scale(0.8)" filter="url(#metalShine2)">
+              <!-- Cabo da navalha -->
+              <rect x="-120" y="-20" width="80" height="40" rx="5" fill="url(#purpleGradient2)" stroke="#E1BEE7" stroke-width="2" />
+              <rect x="-115" y="-15" width="70" height="30" rx="3" fill="#4A148C" stroke="#E1BEE7" stroke-width="1" opacity="0.7" />
+              
+              <!-- Lâmina da navalha -->
+              <path d="M-40 0 L80 0 L100 -15 L100 15 L80 0 Z" fill="url(#metalGradient2)" stroke="#9E9E9E" stroke-width="1" />
+              <line x1="-40" y1="0" x2="80" y2="0" stroke="#BDBDBD" stroke-width="1" />
+              
+              <!-- Detalhes do cabo -->
+              <circle cx="-90" cy="0" r="8" fill="#E1BEE7" opacity="0.8" />
+              <circle cx="-70" cy="0" r="8" fill="#E1BEE7" opacity="0.6" />
+              <circle cx="-50" cy="0" r="8" fill="#E1BEE7" opacity="0.4" />
+            </g>
+            
+            <!-- Texto "BARBER" -->
+            <text x="400" y="230" font-family="'Montserrat', sans-serif" font-size="70" font-weight="700" text-anchor="middle" fill="#FFFFFF" filter="url(#softShadow2)">BARBER</text>
+            
+            <!-- Texto "PRO" com estilo diferenciado -->
+            <text x="400" y="290" font-family="'Montserrat', sans-serif" font-size="50" font-weight="900" text-anchor="middle" fill="url(#accentGradient2)" filter="url(#softShadow2)">PRO</text>
+            
+            <!-- Ano de estabelecimento -->
+            <text x="400" y="330" font-family="'Montserrat', sans-serif" font-size="16" font-weight="300" text-anchor="middle" fill="#E1BEE7" letter-spacing="5">EST. 2023</text>
+            
+            <!-- Elementos decorativos adicionais -->
+            <line x1="320" y1="330" x2="370" y2="330" stroke="#E1BEE7" stroke-width="1" />
+            <line x1="430" y1="330" x2="480" y2="330" stroke="#E1BEE7" stroke-width="1" />
+            
+            <!-- Brilhos e detalhes -->
+            <circle cx="300" cy="150" r="2" fill="#FFFFFF" opacity="0.8" />
+            <circle cx="500" cy="150" r="2" fill="#FFFFFF" opacity="0.8" />
+            <circle cx="350" cy="120" r="1.5" fill="#FFFFFF" opacity="0.6" />
+            <circle cx="450" cy="120" r="1.5" fill="#FFFFFF" opacity="0.6" />
+          </svg>
+        </div>
+        <h3 class="logo-title">Logo Horizontal</h3>
+        <p class="logo-description">
+          Versão horizontal para uso em cabeçalhos, assinaturas e materiais impressos.
+        </p>
+        <div class="button-group">
+          <a href="/barberpro-luxury.svg" download="barberpro-luxury.svg" class="button button-primary">
+            Download SVG
+          </a>
+          <a href="/barberpro-luxury.svg" download="barberpro-luxury.svg" class="button button-outline" id="download-luxury-png">
+            Download PNG
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="instructions">
+      <h2>Instruções de Uso</h2>
+      <p>
+        <strong>Formato SVG:</strong> Ideal para uso em websites, materiais impressos de alta qualidade e quando precisar redimensionar o logo sem perda de qualidade.
+      </p>
+      <p>
+        <strong>Formato PNG:</strong> Melhor para uso em redes sociais, emails e quando precisar de um arquivo com fundo transparente.
+      </p>
+      <p>
+        <strong>Para Instagram:</strong> Recomendamos usar a versão quadrada para o perfil e a versão horizontal para posts e stories.
+      </p>
+      <p>
+        <strong>Cores:</strong> O logo utiliza a paleta de cores roxa premium da BarberPro. Para manter a consistência da marca, não altere as cores do logo.
+      </p>
+    </div>
+  </main>
+  
+  <footer>
+    <p>© 2023 BarberPro - Todos os direitos reservados</p>
+  </footer>
+  
+  <script>
+    // Função para converter SVG para PNG e fazer download
+    function svgToPng(svgElement, width, height, filename) {
+      // Cria um canvas temporário
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      
+      // Converte o SVG para uma string
+      const svgString = new XMLSerializer().serializeToString(svgElement);
+      const svg = new Blob([svgString], {type: 'image/svg+xml;charset=utf-8'});
+      
+      // Cria uma URL para o SVG
+      const url = URL.createObjectURL(svg);
+      
+      // Cria uma imagem a partir do SVG
+      const img = new Image();
+      img.onload = function() {
+        // Desenha a imagem no canvas
+        ctx.drawImage(img, 0, 0, width, height);
+        
+        // Converte o canvas para PNG
+        canvas.toBlob(function(blob) {
+          // Cria um link para download
+          const link = document.createElement('a');
+          link.download = filename;
+          link.href = URL.createObjectURL(blob);
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          URL.revokeObjectURL(link.href);
+        }, 'image/png');
+        
+        URL.revokeObjectURL(url);
+      };
+      img.src = url;
+    }
+    
+    // Adiciona eventos de clique aos botões de download PNG
+    document.getElementById('download-instagram-png').addEventListener('click', function(e) {
+      e.preventDefault();
+      const svgElement = document.querySelector('.logo-card:first-child svg');
+      svgToPng(svgElement, 1080, 1080, 'barberpro-instagram.png');
+    });
+    
+    document.getElementById('download-luxury-png').addEventListener('click', function(e) {
+      e.preventDefault();
+      const svgElement = document.querySelector('.logo-card:last-child svg');
+      svgToPng(svgElement, 800, 400, 'barberpro-luxury.png');
+    });
+  </script>
+</body>
+</html> 

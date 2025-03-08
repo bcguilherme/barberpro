@@ -1,0 +1,182 @@
+{
+  "header": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "features": "Features",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "how_it_works": "How It Works"
+  },
+  "hero": {
+    "title": "Complete barbershop management system",
+    "subtitle": "Increase your productivity and revenue with BarberPro. Modern and intuitive interface to manage your business with ease.",
+    "cta": {
+      "start": "Get Started",
+      "demo": "See Demo"
+    }
+  },
+  "pricing": {
+    "title": "Plans and pricing",
+    "subtitle": "Choose the ideal plan for your business",
+    "basic": {
+      "title": "Basic Plan",
+      "price": "€29,90",
+      "period": "/month",
+      "description": "Ideal for self-employed professionals and small barbershops.",
+      "annual_discount": "20% discount on annual plan",
+      "annual_price": "€287,04",
+      "annual_period": "/year",
+      "feature1": "Online scheduling",
+      "feature2": "Up to 100 client registrations",
+      "feature3": "Basic financial control",
+      "feature4": "Google Calendar integration",
+      "cta": "Get Started"
+    },
+    "premium": {
+      "title": "Premium Plan",
+      "badge": "MOST POPULAR",
+      "price": "€49,90",
+      "period": "/month",
+      "description": "Ideal for medium and large barbershops with multiple professionals.",
+      "annual_discount": "20% discount on annual plan",
+      "annual_price": "€479,04",
+      "annual_period": "/year",
+      "feature1": "All features from the basic plan",
+      "feature2": "Unlimited clients",
+      "feature3": "Advanced inventory control",
+      "feature4": "Advanced reports",
+      "feature5": "Customized loyalty program",
+      "feature6": "Priority support",
+      "cta": "Get Started"
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your barbershop?",
+    "subtitle": "Try BarberPro for free for 14 days and discover how we can help your business grow.",
+    "button": "Start free trial"
+  },
+  "footer": {
+    "description": "Complete management system for barbershops and beauty salons.",
+    "copyright": "© 2024 BarberPro. All rights reserved.",
+    "links": "Links",
+    "legal": "Legal",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies",
+    "contact": "Contact"
+  },
+  "reviews": {
+    "title": "What our customers say",
+    "subtitle": "Over 1000 barbershops have already transformed their businesses with BarberPro"
+  },
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "subtitle": "See what our customers are saying about BarberPro",
+    "testimonial1": {
+      "text": "BarberPro completely transformed my barbershop management. Now I can control appointments, finances, and inventory in one place. I recommend it to everyone!",
+      "name": "Charles Smith",
+      "role": "Owner of Vintage Barbershop",
+      "initials": "CS"
+    },
+    "testimonial2": {
+      "text": "Since we implemented BarberPro, our bookings have increased by 30% and customer satisfaction has improved significantly. The interface is intuitive and easy to use.",
+      "name": "Mary Sanders",
+      "role": "Manager at Elite Salon",
+      "initials": "MS"
+    },
+    "testimonial3": {
+      "text": "Customer support is exceptional! Whenever I had questions, the BarberPro team helped me promptly. The system is complete and meets all the needs of my barbershop.",
+      "name": "Robert Oliver",
+      "role": "Barber and Entrepreneur",
+      "initials": "RO"
+    }
+  },
+  "features": {
+    "title": "BarberPro Features",
+    "subtitle": "All the tools you need to manage your barbershop in one place",
+    "scheduling": {
+      "title": "Smart scheduling",
+      "description": "Intuitive scheduling system integrated with Google Calendar for your clients to easily book appointments."
+    },
+    "financial": {
+      "title": "Financial management",
+      "description": "Complete control of revenues, expenses, and commissions with detailed visual reports."
+    },
+    "loyalty": {
+      "title": "Customer loyalty",
+      "description": "Marketing tools and loyalty programs to keep your customers coming back."
+    }
+  },
+  "business_model": {
+    "title": "How BarberPro Works",
+    "subtitle": "A complete solution to transform your barbershop management",
+    "scheduling_title": "Smart Scheduling",
+    "scheduling_description": "Optimize your calendar and eliminate scheduling conflicts",
+    "online_scheduling": "Online Booking",
+    "online_scheduling_desc": "Allow your customers to book appointments 24/7 through website or app",
+    "automated_calendar": "Automated Calendar",
+    "automated_calendar_desc": "Synchronization with Google Calendar and automatic notifications",
+    "auto_reminders": "Automatic Reminders",
+    "auto_reminders_desc": "Reduce no-shows with SMS and email reminders",
+    
+    "financial_title": "Financial Management",
+    "financial_description": "Complete control of your business finances",
+    "revenue_tracking": "Revenue Tracking",
+    "revenue_tracking_desc": "Monitor sales, services, and commissions in real-time",
+    "expense_management": "Expense Management",
+    "expense_management_desc": "Categorize and track all your business expenses",
+    "commission_system": "Commission System",
+    "commission_system_desc": "Automatic commission calculation for your professionals",
+    
+    "customer_title": "Customer Management",
+    "customer_description": "Build lasting relationships with your customers",
+    "client_profiles": "Client Profiles",
+    "client_profiles_desc": "Complete history of services, preferences, and contact information",
+    "service_history": "Service History",
+    "service_history_desc": "Detailed record of all services performed",
+    "preference_tracking": "Custom Preferences",
+    "preference_tracking_desc": "Record preferences for cuts, products, and professionals",
+    
+    "marketing_title": "Marketing and Loyalty",
+    "marketing_description": "Tools to attract and retain more customers",
+    "loyalty_program": "Loyalty Program",
+    "loyalty_program_desc": "Points and rewards system to encourage return visits",
+    "automated_campaigns": "Automated Campaigns",
+    "automated_campaigns_desc": "Emails and SMS for birthdays, promotions, and reactivation",
+    "review_management": "Review Management",
+    "review_management_desc": "Collect and manage customer reviews to improve your reputation"
+  },
+  "stats": {
+    "barbershops": "Barbershops",
+    "appointments": "Appointments",
+    "clients": "Clients",
+    "satisfaction": "Satisfaction"
+  },
+  "login": {
+    "title": "Sign in to your account",
+    "subtitle": "Access the system and manage your barbershop",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgot": "Forgot your password?",
+    "button": "Sign in",
+    "google": "Continue with Google",
+    "no_account": "Don't have an account?",
+    "signup_link": "Sign up"
+  },
+  "signup": {
+    "title": "Create your account",
+    "subtitle": "Start managing your barbershop efficiently",
+    "fullname": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "password_hint": "Minimum of 8 characters, including letters and numbers",
+    "button": "Create account",
+    "google": "Continue with Google",
+    "has_account": "Already have an account?",
+    "login_link": "Sign in"
+  }
+} 
