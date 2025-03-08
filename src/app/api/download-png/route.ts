@@ -3,6 +3,9 @@ import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
 
+// Indicando explicitamente que esta rota é dinâmica
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;

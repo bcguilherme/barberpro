@@ -25,9 +25,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   
-  // Suporte a arquivos estáticos na pasta public
+  // Configuração de metadados para resolver o aviso de metadataBase
   experimental: {
-    serverActions: true,
+    // Server Actions já estão disponíveis por padrão no Next.js 14.1.0
   }
 }
 

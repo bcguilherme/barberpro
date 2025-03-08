@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
 
+// Indicando explicitamente que esta rota é dinâmica
+export const dynamic = 'force-dynamic';
+
 const contactSchema = z.object({
   name: z.string().min(1, 'Nome é obrigatório'),
   email: z.string().email('Email inválido'),

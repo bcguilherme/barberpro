@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   description: 'Sistema completo para gestão de barbearias e salões de beleza',
   keywords: ['barbearia', 'gestão', 'agendamento', 'salão de beleza', 'software'],
   authors: [{ name: 'BarberPro Team' }],
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://barberpro-app.vercel.app'),
   openGraph: {
     title: 'BarberPro - Sistema para Barbearias',
     description: 'Sistema completo para gestão de barbearias e salões de beleza',

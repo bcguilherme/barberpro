@@ -3,6 +3,9 @@ import bcrypt from 'bcryptjs'
 import { db } from '@/lib/db'
 import { z } from 'zod'
 
+// Indicando explicitamente que esta rota é dinâmica
+export const dynamic = 'force-dynamic';
+
 const registerSchema = z.object({
   name: z.string().min(1, 'Nome é obrigatório'),
   email: z.string().email('Email inválido'),
