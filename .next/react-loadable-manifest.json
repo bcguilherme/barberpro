@@ -1,38 +1,38 @@
 {
   "../components/ResponsiveTabs.tsx -> ./Tabs": {
-    "id": 2944,
+    "id": "../components/ResponsiveTabs.tsx -> ./Tabs",
     "files": [
-      "static/chunks/2944.31218432cc4496d2.js"
+      "static/chunks/_app-pages-browser_src_components_Tabs_tsx.js"
     ]
   },
   "../components/ResponsiveTabs.tsx -> ./VerticalTabs": {
-    "id": 3757,
+    "id": "../components/ResponsiveTabs.tsx -> ./VerticalTabs",
     "files": [
-      "static/chunks/3757.b126b0da6f9ed0ab.js"
+      "static/chunks/_app-pages-browser_src_components_VerticalTabs_tsx.js"
     ]
   },
   "../components/TabsHome.tsx -> ./Features": {
-    "id": 9533,
+    "id": "../components/TabsHome.tsx -> ./Features",
     "files": [
-      "static/chunks/9533.7a19d736c5c8a526.js"
+      "static/chunks/_app-pages-browser_src_components_Features_tsx.js"
     ]
   },
   "../components/TabsHome.tsx -> ./Pricing": {
-    "id": 9526,
+    "id": "../components/TabsHome.tsx -> ./Pricing",
     "files": [
-      "static/chunks/9526-07f6be0cde5d56dc.js"
+      "static/chunks/_app-pages-browser_src_components_Pricing_tsx.js"
     ]
   },
   "../components/TabsHome.tsx -> ./ResponsiveTabs": {
-    "id": 6177,
+    "id": "../components/TabsHome.tsx -> ./ResponsiveTabs",
     "files": [
-      "static/chunks/6177.aeacc524ae27b939.js"
+      "static/chunks/_app-pages-browser_src_components_ResponsiveTabs_tsx.js"
     ]
   },
   "../components/TabsHome.tsx -> ./Reviews": {
-    "id": 3863,
+    "id": "../components/TabsHome.tsx -> ./Reviews",
     "files": [
-      "static/chunks/3863.d788eff37137cd7a.js"
+      "static/chunks/_app-pages-browser_src_components_Reviews_tsx.js"
     ]
   }
 }

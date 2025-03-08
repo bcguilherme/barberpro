@@ -1,17 +1,39 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useI18n, Language } from '@/hooks/useI18n'
 import { Globe } from 'lucide-react'
+import { useMediaQuery } from '@/hooks/useMediaQuery'
+
+// Mapeamento de códigos de idioma para nomes e bandeiras
+const languageMap = {
+  pt: { name: 'Português', flag: '🇧🇷' },
+  en: { name: 'English', flag: '🇺🇸' },
+  es: { name: 'Español', flag: '🇪🇸' },
+  fr: { name: 'Français', flag: '🇫🇷' },
+  it: { name: 'Italiano', flag: '🇮🇹' },
+  de: { name: 'Deutsch', flag: '🇩🇪' }
+}
 
 export function LanguageSelector() {
   const { language, changeLanguage } = useI18n()
   const [isOpen, setIsOpen] = useState(false)
+  const isMobile = useMediaQuery('(max-width: 768px)')
   
-  const languages = [
-    { code: 'pt', name: 'Português' },
-    { code: 'en', name: 'English' }
-  ]
+  // Fechar o menu quando clicar fora dele
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement
+      if (!target.closest('.language-selector')) {
+        setIsOpen(false)
+      }
+    }
+    
+    document.addEventListener('click', handleClickOutside)
+    return () => {
+      document.removeEventListener('click', handleClickOutside)
+    }
+  }, [])
   
   const handleLanguageChange = (lang: Language) => {
     changeLanguage(lang)
@@ -19,29 +41,36 @@ export function LanguageSelector() {
   }
   
   return (
-    <div className="relative">
+    <div className="relative language-selector">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-1 text-sm font-medium text-gray-700 hover:text-purple-700 transition-colors"
+        className="flex items-center space-x-2 text-sm font-medium text-gray-700 hover:text-purple-700 transition-colors rounded-md px-3 py-2 hover:bg-gray-100"
+        aria-label="Selecionar idioma"
+        aria-expanded={isOpen}
       >
         <Globe className="h-4 w-4" />
-        <span>{languages.find(lang => lang.code === language)?.name || 'Português'}</span>
+        <span className="flex items-center">
+          <span className="mr-2">{languageMap[language]?.flag}</span>
+          {!isMobile && <span>{languageMap[language]?.name || 'Português'}</span>}
+        </span>
       </button>
       
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg overflow-hidden z-20">
+        <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg overflow-hidden z-50 border border-gray-200">
           <div className="py-1">
-            {languages.map((lang) => (
+            {Object.entries(languageMap).map(([code, { name, flag }]) => (
               <button
-                key={lang.code}
-                onClick={() => handleLanguageChange(lang.code as Language)}
-                className={`w-full text-left px-4 py-2 text-sm ${
-                  language === lang.code
+                key={code}
+                onClick={() => handleLanguageChange(code as Language)}
+                className={`w-full text-left px-4 py-2 text-sm flex items-center ${
+                  language === code
                     ? 'bg-purple-50 text-purple-700 font-medium'
                     : 'text-gray-700 hover:bg-gray-100'
                 }`}
+                aria-selected={language === code}
               >
-                {lang.name}
+                <span className="mr-2 text-lg">{flag}</span>
+                <span>{name}</span>
               </button>
             ))}
           </div>

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import '../i18n' // Importar a configuração do i18next
 
 // Tipos de idiomas suportados
-export type Language = 'pt' | 'en'
+export type Language = 'pt' | 'en' | 'es' | 'fr' | 'it' | 'de'
 
 // Interface para o contexto de idioma
 interface LanguageContextType {
@@ -33,7 +33,7 @@ export const useLanguage = () => useContext(LanguageContext)
 
 // Função para validar se o idioma é suportado
 const isValidLanguage = (lang: string): lang is Language => {
-  return lang === 'pt' || lang === 'en'
+  return lang === 'pt' || lang === 'en' || lang === 'es' || lang === 'fr' || lang === 'it' || lang === 'de'
 }
 
 // Função para obter o idioma do navegador
